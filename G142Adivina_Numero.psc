@@ -1,6 +1,6 @@
 Proceso Adivina_Numero
 	Definir numero_adivinar,intentos,numero_ingresado,acertado Como Entero;
-	numero_adivinar = Aleatorio(1,10);
+	numero_adivinar = Aleatorio(1,100);
 	acertado=0;
 	Escribir("Ingrese el número de intentos deseados:");
 	Leer intentos;
